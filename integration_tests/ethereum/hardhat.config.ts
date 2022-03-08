@@ -58,8 +58,7 @@ module.exports = {
     networks: {
         hardhat: {
             forking: {
-                url: ARCHIVE_NODE_URL,
-                blockNumber: 13405367,
+                url: ARCHIVE_NODE_URL
             },
         },
     },
